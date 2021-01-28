@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  color: #333;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#sapper {
+  width: 100%;
+}
+
+p {
+  font-size: var(--pSize);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.25em 0;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 40pt;
+  color: var(--color);
+  text-align: center;
+}
+
+h2 {
+  font-size: 26pt;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 20pt;
+  font-size: 16pt;
+}
+
+code {
+  /* font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555; */
+  background-color: transparent;
+  /* padding: 0.2em 0.4em;
+  border-radius: 2px; */
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 24pt;
+  }
+  h2 {
+    font-size: 16pt;
+  }
+}
+
+:root {
+  --color: #0003ad;
+  --colorLight: #3033e2;
+  --accent: #ffd000;
+  --accentLight: #ffd557;
+  --offWhite: rgb(243, 243, 243);
+  --pSize: 16pt;
+  --stdRadius: 5pt;
+}
+
+.logosDisplay {
+  height: 100%;
+  transform: scale(0.75);
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
