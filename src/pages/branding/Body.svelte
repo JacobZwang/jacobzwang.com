@@ -4,6 +4,8 @@
   import Page from "../../templates/Page.svelte";
   import SplashHacks from "./sections/SplashHacks.svelte";
   import Samo from "./sections/Samo.svelte";
+  import CajunNavy from "./sections/CajunNavy.svelte";
+  import Backyard from "./sections/Backyard.svelte";
 </script>
 
 <svelte:head>
@@ -27,5 +29,7 @@
   <Cheezbit />
   <SplashHacks />
   <Samo />
+  <CajunNavy />
+  <Backyard />
   <p style="color: black; text-align: center">Much more coming soon 🕚</p>
 </Page>

@@ -11,12 +11,9 @@
     <span slot="text">
       <h2>Santa Monica High School</h2>
       <p>
-        This is one of my most widely loved works. It was a project for my
-        digital design class, "design a new logo for our school". I was able to
-        express the near-ocean location of our school and a technical,
-        forward-thinking image through only a wordmark. Unfortunately, it was
-        only a project and their district policies would make the school’s
-        acceptance of it very difficult.
+        This was a project for my digital design class, "design a new logo for
+        our school". I was able to express the near-ocean location of our school
+        and a technical, forward-thinking image through only a wordmark.
       </p>
     </span>
     <span slot="graphic">
